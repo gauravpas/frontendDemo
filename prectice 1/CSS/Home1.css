@@ -1,0 +1,40 @@
+﻿body {
+    background: #244BC5;
+    background-image: url("/Image/BG.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+::placeholder{
+    color: white;
+}
+.inputwrapper {
+    width: 300px;
+}
+  
+.inputwrapper input ,
+.inputwrapper button {
+        width: 100%;
+        border:0;
+        box-sizing: border-box;
+}
+.inputwrapper input{
+        margin-bottom: 20px;
+        border: 1px solid #fff;
+        background-color: transparent;
+        box-sizing: border-box;
+        border-radius: 4px;
+        color: white;
+}
+.inputwrapper button{
+        margin-top: 43px;
+}
+.loginInner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+}
+.inputwrapper input:focus-visible{
+    outline: 0px !important;
+}
