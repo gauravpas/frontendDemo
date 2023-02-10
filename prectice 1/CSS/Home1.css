@@ -1,40 +1,81 @@
-﻿body {
-    background: #244BC5;
-    background-image: url("/Image/BG.png");
-    background-size:cover;
-    background-repeat: no-repeat;
+﻿@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Open+Sans&display=swap");
 
+body {
+    background: #244bc5;
+    background-image: url("/image/BG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Montserrat", sans-serif !important;
 }
-::placeholder{
+
+::placeholder {
     color: white;
+    opacity: 0.6;
 }
-.inputwrapper {
+
+.inputWrapper {
     width: 300px;
 }
-  
-.inputwrapper input ,
-.inputwrapper button {
+
+    .inputWrapper input,
+    .inputWrapper button {
         width: 100%;
-        border:0;
+        border: 0;
         box-sizing: border-box;
-}
-.inputwrapper input{
-        margin-bottom: 20px;
-        border: 1px solid #fff;
+        height: 45px;
+    }
+
+    .inputWrapper input {
         background-color: transparent;
         box-sizing: border-box;
-        border-radius: 4px;
+        padding: 10px;
         color: white;
-}
-.inputwrapper button{
-        margin-top: 43px;
-}
+    }
+
+    .inputWrapper button {
+        margin-top: 25px;
+        background: #ffffff;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+        border-radius: 4px;
+        color: #2148c0;
+        font-size: 16px;
+    }
+
 .loginInner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+.inputWrapper input:focus-visible {
+    outline: 0px !important;
+}
+
+.inputWrapper .inputInner {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+    .inputWrapper .inputInner .userIcon {
+        height: 45px;
         display: flex;
         align-items: center;
-        justify-content: center;
-        height: 100vh;
+        margin: 0px 10px;
+    }
+
+.forgotPassword {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bolder !important;
 }
-.inputwrapper input:focus-visible{
-    outline: 0px !important;
+
+.loginLogo {
+    text-align: center;
+    margin-bottom: 70px;
 }

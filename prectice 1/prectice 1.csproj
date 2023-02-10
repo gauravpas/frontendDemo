@@ -68,11 +68,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\Home1.css" />
+    <Content Include="CSS\Home2.css" />
     <Content Include="Global.asax" />
     <Content Include="Home1.html" />
+    <Content Include="Home2.html" />
     <Content Include="Image\BG.png" />
     <Content Include="Image\Group.png" />
+    <Content Include="Image\lock.png" />
     <Content Include="Image\user.svg" />
+    <Content Include="Image\Vectors %281%29.png" />
+    <Content Include="Image\Vectors.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
